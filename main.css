@@ -1,0 +1,29 @@
+/* Some basic rules for the overall body of the document */
+body {
+
+	overflow:visible;
+	word-wrap:break-word;
+	background-color: #bf9e72;	
+}
+
+/* h2 will be used for main page headers */
+
+h2 {
+	padding-top: 2.5em;
+	text-align: center;
+	color: blue;
+	font-size: 2em;
+	font-family: sans-serif;
+}
+
+/* some basic style for the main body */
+#mainbody {
+	padding-left: 15%;
+	padding-right: 20%;
+	padding-top: 1em;
+}
+
+#mainbody p {
+	color: red;
+	font-family: monospace;
+}
