@@ -46,3 +46,9 @@ h2 {
 	color: #990033;
 	font-size: 3em;
 }
+
+footer {
+	padding-top: 1em;
+	text-align: center;
+	font-size: .75em;
+}
