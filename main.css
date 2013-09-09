@@ -3,27 +3,46 @@ body {
 
 	overflow:visible;
 	word-wrap:break-word;
-	background-color: #bf9e72;	
+	background-color: #FFF8DC;	
+}
+
+/* centers the main image */
+
+#mainImage img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto
 }
 
 /* h2 will be used for main page headers */
 
 h2 {
-	padding-top: 2.5em;
+	padding-top: 2em;
 	text-align: center;
-	color: blue;
+	color: #336699;
 	font-size: 2em;
 	font-family: sans-serif;
 }
 
 /* some basic style for the main body */
-#mainbody {
-	padding-left: 15%;
-	padding-right: 20%;
-	padding-top: 1em;
+.rightText {
+	padding-left: 25%;
+	padding-right: 10%;
+	padding-top: 2.2em;
+	font-variant: small-caps;
 }
 
-#mainbody p {
-	color: red;
+.rightText p {
+	color:  #834C24;
 	font-family: monospace;
+	font-size: 1.5em;
+}
+
+.leftText {
+	float: left;
+}
+
+.leftText {
+	color: #990033;
+	font-size: 3em;
 }
