@@ -1,6 +1,5 @@
 /* Some basic rules for the overall body of the document */
 body {
-
 	overflow:visible;
 	word-wrap:break-word;
 	background-color: #f1f0eb;	
@@ -24,7 +23,7 @@ h2 {
 	font-family: sans-serif;
 }
 
-/* some basic style for the main body */
+/* rightText is a class used for the paragraphs floating to the right. text is dark colored and slightly larger than normal */
 .rightText {
 	padding-left: 25%;
 	padding-right: 10%;
@@ -38,6 +37,8 @@ h2 {
 	font-size: 1.5em;
 }
 
+/* leftText is a class used for the paragraph title and floats to the left. text is red or other bright color and is much larger than normal */
+
 .leftText {
 	float: left;
 }
@@ -46,6 +47,8 @@ h2 {
 	color: #990033;
 	font-size: 3em;
 }
+
+/* footer is used to list author's name, copyright information, attribution, etc. Text is center-aligned and slightly small */
 
 footer {
 	padding-top: 1em;
